@@ -72,5 +72,5 @@ dependencies {
     androidTestImplementation 'androidx.test:rules:1.2.0'
     androidTestImplementation 'androidx.test:runner:1.2.0'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
-    androidTestImplementation 'dev.flutter.plugins.integration_test:android_test:+' // or specific version
+    androidTestImplementation 'dev.flutter.plugins.integration_test:integration_test:1.0.2' // or specific version
 }
