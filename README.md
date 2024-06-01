@@ -1,16 +1,2 @@
-# sse3401_ci_cd_pipeline
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# SSE3401 Lab 6
+This lab is a continuation of lab 5, which will publish the GUI prototype from lab 5 to Firebase through the CI CD pipeline. As my previous lab 5 code was in [flutter-projects](https://github.com/chewzzz1014/flutter-projects) repository, I've moved a copy of the code into this repository for publishing the mobile app.
