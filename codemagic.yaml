@@ -24,6 +24,7 @@ workflows:
           set -ex
           cd android
           ./gradlew app:assembleAndroidTest
+          ./gradlew app:assembleDebug -Ptarget="$CM_BUILD_DIR/integration_test/app_test.dart"
       - name: Run Firebase Test Lab Tests
         script: |
           set -ex
@@ -35,7 +36,7 @@ workflows:
             --type instrumentation \
             --app build/app/outputs/apk/debug/app-debug.apk \
             --test build/app/outputs/apk/androidTest/debug/app-debug-androidTest.apk \
-            --timeout 3m
+            --timeout 15m
     artifacts:
       - build/**/outputs/**/*.apk
       - build/**/outputs/**/*.abb
